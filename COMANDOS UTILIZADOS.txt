@@ -1,0 +1,21 @@
+COMANDOS UTILIZADOS:
+
+git init --initial-branch=main (Inicializa um repositório Git com a branch principal chamada main)
+
+git config user.name "Damiao Netto" (Define o nome do usuário para os commits)
+
+git config user.email "nettosousa06@gmail.com" (Define o e-mail do usuário para os commits)
+
+git add . (Adiciona todos os arquivos alterados ao estágio de preparação)
+
+git commit -m "primeiro Commit" (Cria o primeiro commit com a mensagem fornecida)
+
+git remote add origin-github https://github.com/DamiaoNetto/curso-git-ead-ifrn.git (Adiciona o repositório remoto no GitHub)
+
+git push -u origin-github main (Envia os commits para o repositório remoto no GitHub e define a branch main como padrão)
+
+git add . (Adiciona novamente arquivos alterados ao estágio)
+
+git commit -m "Segundo Commit" (Cria um segundo commit)
+
+git push -u origin-github main (Envia o segundo commit para o repositório remoto)
